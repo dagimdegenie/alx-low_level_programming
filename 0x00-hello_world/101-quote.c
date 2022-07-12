@@ -1,4 +1,5 @@
-#!/bin/bash
+#include <stdio.h>
+#include <unistd.h>
 /**
  * main -prints out a string using write
  *Description: Program that prints out the string s followed by a new line
