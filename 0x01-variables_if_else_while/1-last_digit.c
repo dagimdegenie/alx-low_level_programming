@@ -14,7 +14,12 @@ int n, last_digit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-last_digit = n % 10;
+while (n > 10)
+{
+	n %=10;
+	n /=10;
+}
+last_digit = n;
 
 if (last_digit > 5) 
 printf("%i and is greater than 5\n", n);
