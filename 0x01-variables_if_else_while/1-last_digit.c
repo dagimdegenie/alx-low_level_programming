@@ -16,8 +16,8 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 while (n > 10)
 {
-	n %=10;
-	n /=10;
+	n = n % 10;
+	n = n / 10;
 }
 last_digit = n;
 
