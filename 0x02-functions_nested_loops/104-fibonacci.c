@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * numLength - returns the length of string 
+ * numLength - returns the length of string
  *
  * @num: operand number
  *
@@ -27,7 +27,7 @@ int numLength(int num)
 /**
  * main - Entry point
  *
- * Description: prints the first 98 Fibonacci numbers starting with 1 and 2 followed by a new line
+ * Description: prints the first 98 Fibonacci numbers
  *
  * Solution was copied from Nobert Patrick Wise, github handle: Trikcode
  *
